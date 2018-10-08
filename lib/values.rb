@@ -13,4 +13,5 @@ def get_the_values(groceries)
   groceries.each do |key, value|
     value_array.push(value.values)
   end
+  value_array
 end
